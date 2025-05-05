@@ -20,9 +20,8 @@ This project is a Python-based keylogger developed as a learning exercise to und
 - Ethical implications of monitoring tools
 
 
-## 🧑‍💻 Author
-Prashant Gupta
-GitHub | LinkedIn
+📄 **Full Report:** [Keylogger_Project_Report_Prashant.pdf](Keylogger_Project_Report_Prashant.pdf)
 
-##📄 Full Report
-📘 Keylogger_Project_Report_Prashant.pdf
+---
+
+**Author**: [Prashant Gupta](https://www.linkedin.com/in/prashantgupta2002)
